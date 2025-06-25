@@ -30,3 +30,4 @@ Microservicio .NET 8 para planificar y visualizar tareas de rovers en Marte.
 - Validaciones con FluentValidation.
 - Cobertura de pruebas >70% en lógica de solapamiento.
 - Preparado para agregar SPA Angular 17+.
+# test
