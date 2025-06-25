@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.6222" branch-rate="0.5" version="1.9" timestamp="1750825693" lines-covered="28" lines-valid="45" branches-covered="9" branches-valid="18">
+  <sources>
+    <source>/Users/juancarlosallende/untitled folder/</source>
+  </sources>
+  <packages>
+    <package name="RoverMissionPlanner.Domain" line-rate="1" branch-rate="1" complexity="8">
+      <classes>
+        <class name="RoverMissionPlanner.Domain.RoverTask" filename="RoverMissionPlanner.Domain/Class1.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_RoverName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TaskType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Latitude" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Longitude" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_StartsAt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DurationMinutes" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Status" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="8" branch="False" />
+            <line number="22" hits="11" branch="False" />
+            <line number="23" hits="4" branch="False" />
+            <line number="24" hits="4" branch="False" />
+            <line number="25" hits="4" branch="False" />
+            <line number="26" hits="11" branch="False" />
+            <line number="27" hits="7" branch="False" />
+            <line number="28" hits="6" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="RoverMissionPlanner.Application" line-rate="0.5405" branch-rate="0.5" complexity="20">
+      <classes>
+        <class name="RoverMissionPlanner.Application.RoverTaskService" filename="RoverMissionPlanner.Application/Class1.cs" line-rate="0.7406999999999999" branch-rate="0.5" complexity="19">
+          <methods>
+            <method name="CreateTaskAsync" signature="(RoverMissionPlanner.Domain.RoverTask)" line-rate="1" branch-rate="0.5832999999999999" complexity="12">
+              <lines>
+                <line number="17" hits="4" branch="False" />
+                <line number="19" hits="5" branch="True" condition-coverage="50% (5/10)">
+                  <conditions>
+                    <condition number="22" type="jump" coverage="50%" />
+                    <condition number="65" type="jump" coverage="50%" />
+                    <condition number="89" type="jump" coverage="50%" />
+                    <condition number="98" type="jump" coverage="50%" />
+                    <condition number="137" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="20" hits="5" branch="False" />
+                <line number="21" hits="5" branch="False" />
+                <line number="22" hits="5" branch="False" />
+                <line number="23" hits="5" branch="False" />
+                <line number="24" hits="5" branch="False" />
+                <line number="25" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="41" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="3" branch="False" />
+                <line number="28" hits="3" branch="False" />
+                <line number="29" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="GetTasksForRoverOnDateAsync" signature="(System.String,System.DateTime)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="17" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetUtilizationForRoverOnDateAsync" signature="(System.String,System.DateTime)" line-rate="1" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="True" condition-coverage="50% (2/4)">
+                  <conditions>
+                    <condition number="17" type="jump" coverage="50%" />
+                    <condition number="49" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="44" hits="2" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="4" branch="False" />
+            <line number="19" hits="5" branch="True" condition-coverage="50% (5/10)">
+              <conditions>
+                <condition number="22" type="jump" coverage="50%" />
+                <condition number="65" type="jump" coverage="50%" />
+                <condition number="89" type="jump" coverage="50%" />
+                <condition number="98" type="jump" coverage="50%" />
+                <condition number="137" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="20" hits="5" branch="False" />
+            <line number="21" hits="5" branch="False" />
+            <line number="22" hits="5" branch="False" />
+            <line number="23" hits="5" branch="False" />
+            <line number="24" hits="5" branch="False" />
+            <line number="25" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="41" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="3" branch="False" />
+            <line number="28" hits="3" branch="False" />
+            <line number="29" hits="3" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="17" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="True" condition-coverage="50% (2/4)">
+              <conditions>
+                <condition number="17" type="jump" coverage="50%" />
+                <condition number="49" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="44" hits="2" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="14" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="RoverMissionPlanner.Application.RoverTaskValidator" filename="RoverMissionPlanner.Application/RoverTaskValidator.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="0" branch="False" />
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

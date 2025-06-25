@@ -1,0 +1,11 @@
+/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/bin/Debug/net9.0/RoverMissionPlanner.Domain.deps.json
+/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/bin/Debug/net9.0/RoverMissionPlanner.Domain.dll
+/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/bin/Debug/net9.0/RoverMissionPlanner.Domain.pdb
+/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/obj/Debug/net9.0/RoverMissionPlanner.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/obj/Debug/net9.0/RoverMissionPlanner.Domain.AssemblyInfoInputs.cache
+/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/obj/Debug/net9.0/RoverMissionPlanner.Domain.AssemblyInfo.cs
+/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/obj/Debug/net9.0/RoverMissionPlanner.Domain.csproj.CoreCompileInputs.cache
+/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/obj/Debug/net9.0/RoverMissionPlanner.Domain.dll
+/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/obj/Debug/net9.0/refint/RoverMissionPlanner.Domain.dll
+/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/obj/Debug/net9.0/RoverMissionPlanner.Domain.pdb
+/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/obj/Debug/net9.0/ref/RoverMissionPlanner.Domain.dll

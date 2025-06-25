@@ -1,0 +1,219 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.API/RoverMissionPlanner.API.csproj": {}
+  },
+  "projects": {
+    "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.API/RoverMissionPlanner.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.API/RoverMissionPlanner.API.csproj",
+        "projectName": "RoverMissionPlanner.API",
+        "projectPath": "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.API/RoverMissionPlanner.API.csproj",
+        "packagesPath": "/Users/juancarlosallende/.nuget/packages/",
+        "outputPath": "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juancarlosallende/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Application/RoverMissionPlanner.Application.csproj": {
+                "projectPath": "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Application/RoverMissionPlanner.Application.csproj"
+              },
+              "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/RoverMissionPlanner.Domain.csproj": {
+                "projectPath": "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/RoverMissionPlanner.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Application/RoverMissionPlanner.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Application/RoverMissionPlanner.Application.csproj",
+        "projectName": "RoverMissionPlanner.Application",
+        "projectPath": "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Application/RoverMissionPlanner.Application.csproj",
+        "packagesPath": "/Users/juancarlosallende/.nuget/packages/",
+        "outputPath": "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juancarlosallende/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/RoverMissionPlanner.Domain.csproj": {
+                "projectPath": "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/RoverMissionPlanner.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/RoverMissionPlanner.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/RoverMissionPlanner.Domain.csproj",
+        "projectName": "RoverMissionPlanner.Domain",
+        "projectPath": "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/RoverMissionPlanner.Domain.csproj",
+        "packagesPath": "/Users/juancarlosallende/.nuget/packages/",
+        "outputPath": "/Users/juancarlosallende/untitled folder/RoverMissionPlanner.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juancarlosallende/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
