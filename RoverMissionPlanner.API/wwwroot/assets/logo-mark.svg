@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title>Búfalo Blanco Isotipo</title>
+  <circle cx="64" cy="64" r="60" fill="#ece8d1" stroke="#525732" stroke-width="8"/>
+  <path d="M28 76c0-19 16-34 37-34 20 0 36 12 36 30 0 19-14 35-38 35-21 0-35-11-35-31z" fill="#525732"/>
+</svg>
