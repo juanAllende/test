@@ -45,6 +45,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseDefaultFiles();
+app.UseStaticFiles();
 
 // POST /rovers/{id}/tasks
 app.MapPost("/rovers/{id}/tasks", async ([FromRoute] string id, [FromBody] RoverTask task, IRoverTaskService service, IValidator<RoverTask> validator) =>

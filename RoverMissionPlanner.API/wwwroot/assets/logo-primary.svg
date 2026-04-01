@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 250" role="img" aria-labelledby="title">
+  <title>Búfalo Blanco</title>
+  <rect width="620" height="250" fill="none"/>
+  <circle cx="90" cy="125" r="70" fill="#ece8d1" stroke="#525732" stroke-width="10"/>
+  <path d="M55 145c0-35 25-56 65-56 30 0 53 17 53 43 0 31-22 54-62 54-35 0-56-16-56-41z" fill="#525732"/>
+  <text x="190" y="122" font-size="68" fill="#f7f7f7" font-family="Georgia,serif" font-weight="700">BÚFALO</text>
+  <text x="190" y="196" font-size="68" fill="#f7f7f7" font-family="Georgia,serif" font-weight="700">BLANCO</text>
+</svg>
